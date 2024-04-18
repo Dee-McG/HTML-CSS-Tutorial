@@ -1,3 +1,16 @@
+# Pawsitive Haven Animal Rescue
+
+This project was built as a tutorial as a basic introduction to HTML and CSS.
+
+A few areas this covers:
+* Semantic Elements
+* Images
+* Flexbox
+* Media Queries
+* HTML Forms
+
+![Mockup](docs/mock.PNG)
+
 ## Credits
 
 * [UXWing](https://uxwing.com/) - Icons
