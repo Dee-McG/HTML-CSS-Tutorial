@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #d2d5d7;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/** Generic **/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sedan', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.active {
+    color: #113978;
+    font-weight: 500;
+}
+
+.card {
+    background-color: #e8e8e8;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.card img {
+    height: 400px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 1rem;
+}
+
+
+/** Home **/
+
+.about {
+    padding: 1rem;
+}
+
+/** Animals **/
+
+.gallery {
+    flex-wrap: wrap;
+}
+
+/** Contact **/
+.contact {
+    padding: 1rem;
+}
+
+form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+}
+
+select {
+    height: 2rem;
+    width: 100%;
+}
+
+input, textarea {
+    height: 2rem;
+    width: 100%;
+}
+
+textarea {
+    height: 200px;
+}
+
+button {
+    padding: 10px;
+    background-color: #6ca0f4;
+    border: none;
+    border-radius: 5px;
+}
+
+/** Header **/
+
+header {
+    background-color: #e8e8e8;
+}
+
+.logo {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.nav-list {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/** Footer **/
+
+footer {
+    flex-shrink: 1;
+    background-color: #e8e8e8;
+}
+
+.icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1rem;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        width: 80%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .flex-container {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .about {
+        padding: 0;
+    }
+
+    form {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card {
+        width: 30%;
+    }
+}
